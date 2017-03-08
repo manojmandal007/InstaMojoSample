@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="unanswered_question_url">https://api.stackexchange.com/2.0/questions/unanswered?page=@page&amp;pagesize=10&amp;order=desc&amp;sort=activity&amp;tagged=@tag&amp;site=stackoverflow</string>
+    <string name="no_answered_question_url">https://api.stackexchange.com/2.0/questions/no-answers?page=@page&amp;pagesize=10&amp;order=desc&amp;sort=activity&amp;tagged=@tag&amp;site=stackoverflow</string>
+
+    <string name="get_comments_url">http://api.stackexchange.com/2.0/questions/@questionId/comments?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;filter=withbody</string>
+    <string name="get_answered_for_question_url">http://api.stackexchange.com/2.0/questions/@questionId/answers?order=desc&amp;sort=activity&amp;site=stackoverflow&amp;filter=withbody</string>
+    <string name="get_questions_details_url">http://api.stackexchange.com/2.0/questions/@questionId?site=stackoverflow&amp;filter=withbody</string>
+
+</resources>

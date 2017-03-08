@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InstaMojoSampleApp</string>
+
+    <string name="no_data">No Data to display</string>
+    <string name="enter_tag">Enter Tag</string>
+    <string name="enter_tag_search">Enter tag for search</string>
+    <string name="unanswered">UnAnswered</string>
+    <string name="no_answer">No Answer</string>
+    <string name="search">Search</string>
+    <string name="comments">Comments</string>
+    <string name="answers">Answers</string>
+    <string name="no_tag_entered">Please enter tag for search</string>
+    <string name="question_list">Question List</string>
+    <string name="question_detail">Question Detail</string>
+
+    <!--Error messages -->
+    <string name="no_internet">You are not connected to the internet. Please check your internet connection.</string>
+    <string name="ok">OK</string>
+</resources>

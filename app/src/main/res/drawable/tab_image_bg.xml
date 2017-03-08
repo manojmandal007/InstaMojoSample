@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Project     : Swing
+  ~ Filename    : right_tab_image_bg.xml
+  ~ Author      : manoj on 1/3/16 7:50 PM
+  ~ Comments    :
+  ~ Copyright   : Copyright © 2015, GolfingIndian.com
+  ~  	           Written under contract by Robosoft Technologies Pvt. Ltd.
+  ~ History     : NA
+  -->
+
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/colorPrimary" />
+    <corners android:radius="10dp" />
+</shape>
