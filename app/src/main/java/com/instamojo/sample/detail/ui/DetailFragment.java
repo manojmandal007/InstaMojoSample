@@ -91,7 +91,6 @@ public class DetailFragment extends BaseFragment implements DetailView {
 
     private void extractArguments() {
         mQuestionId = getArguments().getString(Constants.BundleKeys.QUESTION_ID_KEY);
-        // mQuestionId = "42649441";
     }
 
     @Override
@@ -102,6 +101,7 @@ public class DetailFragment extends BaseFragment implements DetailView {
 
     private void setEmptyView() {
         if (mRecyclerView.getAdapter() != null && mRecyclerView.getAdapter().getItemCount() == 0) {
+            mEmptyView.setVisibility(View.VISIBLE);
             mEmptyView.setText(getString(R.string.no_internet));
         }
     }

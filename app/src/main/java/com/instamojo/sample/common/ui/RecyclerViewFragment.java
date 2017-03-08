@@ -68,6 +68,7 @@ public abstract class RecyclerViewFragment extends BaseFragment implements Swipe
 
     protected void setEmptyView(String emptyText) {
         if (mRecyclerView.getAdapter() != null && mRecyclerView.getAdapter().getItemCount() == 0) {
+            mEmptyView.setVisibility(View.VISIBLE);
             mEmptyView.setText(emptyText);
         }
     }
